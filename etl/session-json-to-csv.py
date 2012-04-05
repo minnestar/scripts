@@ -32,7 +32,7 @@ f=csv.writer(open("output.csv","wb+"))
 # Write CSV Header, If you dont need that, remove this line
 f.writerow(["Title",
 	"Session[Event]",
-        "Session[Summary]"
+        "Session[Summary]",
 	"Session[Presenter]",
 	"Session[Projector]",
 	"Session[Panel]",
